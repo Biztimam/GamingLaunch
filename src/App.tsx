@@ -61,7 +61,7 @@ function App() {
 
           <div className="mb-4">
             <span className="inline-block px-3 py-1 bg-[#C4F000]/20 border border-[#C4F000]/50 text-[#C4F000] text-xs font-bold tracking-widest rounded-full mb-4">
-              AFRICA'S COMPETITIVE GAMING NETWORK
+              KENYAN'S AND AFRICA COMPETITIVE GAMING NETWORK
             </span>
           </div>
 
@@ -151,7 +151,7 @@ function App() {
           <div className="max-w-2xl mx-auto p-6 bg-gradient-to-br from-[#00B4D8]/5 to-[#C4F000]/5 border border-white/10 rounded-xl">
             <h3 className="text-xl font-bold text-white mb-3">Our Mission</h3>
             <p className="text-gray-300 text-sm leading-relaxed">
-              We're transforming the African gaming landscape by creating a comprehensive platform that connects casual gamers with competitive opportunities. Through structured, skill-based competitions, we enable players to rank up, build identity, and compete meaningfully across our integrated network of players, arenas, and leagues.
+              We're transforming the African gaming landscape by creating a comprehensive platform that connects gamers with competitive opportunities. Through structured, skill-based competitions, we enable players to rank up, build identity, and compete meaningfully across our integrated network of players, arenas, and leagues.
             </p>
           </div>
         </div>
