@@ -160,6 +160,7 @@ function App() {
                 alt="Biztimam Technologies"
                 className="h-8 object-contain"
               />
+            </div>
           </div>
         </div>
       </div>
