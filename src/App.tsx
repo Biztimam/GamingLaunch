@@ -130,7 +130,7 @@ function App() {
                 <Gamepad2 className="w-6 h-6 text-[#00B4D8]" />
               </div>
               <div className="text-xl font-bold text-white mb-2">For Players</div>
-              <p className="text-gray-400 text-sm">Compete with gamers across Africa, build your ranking, and establish your competitive identity</p>
+              <p className="text-gray-400 text-sm">Compete with gamers across Kenya, build your ranking, and establish your competitive identity</p>
             </div>
             <div className="p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 hover:border-[#00B4D8]/50 transition-all duration-300 group">
               <div className="mb-4 inline-flex p-3 bg-[#00B4D8]/10 rounded-lg group-hover:bg-[#00B4D8]/20 transition-colors">
