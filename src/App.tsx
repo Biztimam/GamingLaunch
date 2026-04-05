@@ -153,6 +153,13 @@ function App() {
             <p className="text-gray-300 text-sm leading-relaxed">
               We're transforming the African gaming landscape by creating a comprehensive platform that connects gamers with competitive opportunities. Through structured, skill-based competitions, we enable players to rank up, build identity, and compete meaningfully across our integrated network of players, arenas, and leagues.
             </p>
+            <div className="mt-6 pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-center gap-4">
+              <p className="text-gray-400 text-sm">Powered by</p>
+              <img
+                src="/Biztimam_tech_Logo_20260211-removebg-preview_white.png"
+                alt="Biztimam Technologies"
+                className="h-8 object-contain"
+              />
           </div>
         </div>
       </div>
