@@ -61,7 +61,7 @@ function App() {
 
           <div className="mb-4">
             <span className="inline-block px-3 py-1 bg-[#C4F000]/20 border border-[#C4F000]/50 text-[#C4F000] text-xs font-bold tracking-widest rounded-full mb-4">
-              KENYAN'S AND AFRICA COMPETITIVE GAMING NETWORK
+              AFRICA'S COMPETITIVE GAMING NETWORK
             </span>
           </div>
 
