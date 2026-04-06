@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { supabase } from './lib/supabase';
 import { Rocket, CheckCircle, AlertCircle, Gamepad2, Trophy, Users } from 'lucide-react';
+import { GeoBlocker } from './components/GeoBlocker';
 
 function App() {
   const [email, setEmail] = useState('');
@@ -36,7 +37,8 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0a0f1a] via-[#0d1520] to-[#0a0f1a] flex items-center justify-center px-4 py-12">
+    <GeoBlocker>
+      <div className="min-h-screen bg-gradient-to-br from-[#0a0f1a] via-[#0d1520] to-[#0a0f1a] flex items-center justify-center px-4 py-12">
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#00B4D8] opacity-10 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-[#C4F000] opacity-10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
@@ -130,7 +132,7 @@ function App() {
                 <Gamepad2 className="w-6 h-6 text-[#00B4D8]" />
               </div>
               <div className="text-xl font-bold text-white mb-2">For Players</div>
-              <p className="text-gray-400 text-sm">Compete with gamers across Kenya, build your ranking, and establish your competitive identity</p>
+              <p className="text-gray-400 text-sm">Compete with gamers across Africa, build your ranking, and establish your competitive identity</p>
             </div>
             <div className="p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 hover:border-[#00B4D8]/50 transition-all duration-300 group">
               <div className="mb-4 inline-flex p-3 bg-[#00B4D8]/10 rounded-lg group-hover:bg-[#00B4D8]/20 transition-colors">
@@ -151,7 +153,7 @@ function App() {
           <div className="max-w-2xl mx-auto p-6 bg-gradient-to-br from-[#00B4D8]/5 to-[#C4F000]/5 border border-white/10 rounded-xl">
             <h3 className="text-xl font-bold text-white mb-3">Our Mission</h3>
             <p className="text-gray-300 text-sm leading-relaxed">
-              We're transforming the African gaming landscape by creating a comprehensive platform that connects gamers with competitive opportunities. Through structured, skill-based competitions, we enable players to rank up, build identity, and compete meaningfully across our integrated network of players, arenas, and leagues.
+              We're transforming the African gaming landscape by creating a comprehensive platform that connects casual gamers with competitive opportunities. Through structured, skill-based competitions, we enable players to rank up, build identity, and compete meaningfully across our integrated network of players, arenas, and leagues.
             </p>
             <div className="mt-6 pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-center gap-4">
               <p className="text-gray-400 text-sm">Powered by</p>
@@ -164,7 +166,8 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </GeoBlocker>
   );
 }
 
