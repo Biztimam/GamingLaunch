@@ -53,9 +53,13 @@ export function GeoBlocker({ children }: GeoBlockerProps) {
 
         <div className="relative z-10 max-w-2xl w-full text-center">
           <div className="mb-8 flex justify-center">
-            <div className="p-4 bg-red-500/10 rounded-full border border-red-500/30">
-              <Globe className="w-16 h-16 text-red-400" />
-            </div>
+          <div className="mb-8 flex justify-center">
+            <img
+              src="/GamiKonnect_MainLogo-removebg-preview.png"
+              alt="GamiKonnect Logo"
+              className="w-full max-w-md h-auto"
+            />
+          </div>
           </div>
 
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Access Restricted</h1>
